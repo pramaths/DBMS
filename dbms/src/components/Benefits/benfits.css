@@ -1,0 +1,9 @@
+.benefitscontainer{
+    padding: 0;
+    margin: 0;
+}
+
+.benefits{
+    border: 2px solid grey;
+    border-radius: 2px; ;
+}

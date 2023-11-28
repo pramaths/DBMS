@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+   background-color:rgb(60, 59, 59);
+}
+
+.companyname {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.routing .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.routing .nav-links a:hover {
+    color: #ff6347; 
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.authenticationmobile{
+    cursor: pointer;
+    display: none;
+}
+@media(max-width: 469px) {
+    .navbar {
+       
+        align-items: flex-start;
+        padding: 0.4rem 0.4rem;
+    }
+
+    .routing, .authentication {
+        margin-top: 0.6rem;
+    }
+
+    .routing .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .routing {
+        display: none;
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        width: 50%;
+        background-color: white;
+        z-index: 1;
+        text-decoration:  underline;
+        border: 0.05rem solid #ccc;
+        border-radius: 2rem solid;
+    }
+    .show {
+        display: flex;
+    }
+   .authenticationdesktop{
+    display: none;
+   }
+}

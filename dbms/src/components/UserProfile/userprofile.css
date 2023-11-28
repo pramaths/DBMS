@@ -1,0 +1,87 @@
+.userprofilecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.mainuserinfo, .resume-section, .sociallinks, .payment {
+  background-color: #f4f4f4;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.infocontainer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.Image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.FaUser {
+  color: #ccc;
+}
+
+.userinfo, .payment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.resume-section input[type="file"] {
+  display: none;
+}
+
+.resume-upload-label {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.uploaded-resume {
+  margin-top: 0.5rem;
+  color: green;
+}
+
+.sociallinks, .payment {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sociallinks div, .payment div {
+  margin-bottom: 0.5rem;
+  width: 45%;
+}
+
+.payment input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .userinfo, .payment {
+    grid-template-columns: 1fr;
+  }
+
+  .sociallinks div, .payment div {
+    width: 100%;
+  }
+}

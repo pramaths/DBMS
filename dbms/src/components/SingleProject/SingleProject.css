@@ -1,0 +1,113 @@
+.singleprojectdetails{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin: 4rem 15rem;
+}
+.backlink{
+    display: flex;
+    align-items: center;
+}
+
+.projectprice{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.projectTitle{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.projectdetail{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.projectdetail {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .projectdetail div {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .projectdetail div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .active-tab {
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .tab-content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  .tab-content p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+.details{
+display: flex;
+text-align: left;
+}
+
+.proposal-card {
+  border: 1px solid white; /* White border */
+  border-radius: 10px; /* Rounded edges */
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
+}
+
+.developer-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Circular image */
+  margin-right: 15px;
+}
+.message-container {
+  /* Your styles for the message container */
+  margin-bottom: 10px;
+}
+
+.message-container textarea {
+  /* Style the textarea if needed */
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.message-actions button {
+  margin-right: 5px;
+}
+
+.proposal-info {
+  flex-grow: 1;
+}
+
+.proposal-info a {
+  color: #007bff; /* Style for links */
+  text-decoration: none;
+}
+
+.proposal-info a:hover {
+  text-decoration: underline;
+}
+

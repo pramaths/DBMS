@@ -1,0 +1,205 @@
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ccc;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5rem;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #514e4e;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .left-section, .right-section {
+  width: 25%;
+    padding: 10px;
+    border: 1px solid #686565;
+    border-radius: 1rem;
+  }
+  
+  .middle-section {
+    flex: 1;
+    padding: 10px;
+    margin: 0 10px;
+    /* border: 1px solid #4d4747; */
+    border-radius: 1rem;
+  }
+  
+  .content-below {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .profile-icon-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .profile-icon-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px rgba(103, 102, 102, 0.1);
+    background-image: conic-gradient(
+      green var(--percentage) * 1deg,
+      grey 0deg
+    );
+  }
+  
+  .user-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .user-profile{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .user-info{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+
+  }
+  .project{
+    display: flex;
+    flex-direction: column;
+    border: 0.01rem solid rgb(55, 54, 54);
+    padding: 0.5rem;
+  }
+
+  .project-pds{
+    display: flex;
+justify-content: space-between;
+  }
+
+  .prices{
+    display: flex;
+
+  }
+  .deadlines{
+    display: flex;
+  }
+
+  .project-price{
+    font-size: 1.3rem;
+  }
+
+  .project-title{
+    display: flex;
+    margin-top: 0.81rem;
+    margin-bottom: 0.51rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .project-description{
+    display: flex;
+    font-size: medium;
+    text-align: left;
+  }
+
+  .project-oa{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+  }
+
+  .deadlines{
+    align-items: center;
+  }
+  .project-due{
+    margin-left: 0.41rem;
+  }
+  .project-status{
+    margin-left: 0.2rem;
+    border: rgb(105, 105, 108);
+    padding: 0.05rem 0.5rem;
+    background-color: rgb(70, 91, 144);
+    border-radius: 0.5rem;
+  }
+
+  .project-poster{
+    display: flex;
+    align-items: center;
+  }
+  .project-pds .prices .project-price {
+    margin-right: 10px;
+    font-weight: 600;
+    color:#6cd97e;
+  }
+  
+  .project-pds .prices .project-priceI {
+    margin-right: 10px;
+    font-size: medium;
+    font-weight: 600;
+color: #827f7f;
+  }
+  
+  .student-image-container {
+    width: 40px;  
+    height: 40px; 
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.1rem solid rgb(73, 73, 79);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .student-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+   }
+
+ .project-owner{
+    display: flex;
+    margin-left: 0.51rem;
+    font-weight:600 ;
+  } 
+
+
+  .project-due{
+    display: flex;
+    color: #939191;
+  }
+
+  .proj-applicants{
+    display: flex;
+    align-items: center;
+  }
+.project-description{
+  display: flex;
+  font-weight: 600;
+}
+  .proj-app{
+    display: flex;
+    margin-left: 0.3rem;
+    font-weight: 700;
+  }
